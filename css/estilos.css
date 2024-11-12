@@ -1,11 +1,11 @@
 .menuCabecera{
-    background-color: #AADAE5;
+    background-color: #aadae5;
     width: 100%;
     }
     .listamenu li{
-         display: inline;
-         padding: 10px;
-         border-right: solid 2px black;
+        display: inline;
+        padding: 10px;
+        border-right: solid 2px black;
     }
     .listamenu{
         padding: 10px;
@@ -21,8 +21,8 @@
     }
     li a:hover{
         color: #e2430c;
-        background-color: aquamarine;
-    }
+        background-color: yellow;
+        }
     *{
     padding:  0; 
     margin: 0;
@@ -32,17 +32,30 @@
         height: 350px;
         background-image: url("../imagenes/front-view-stacked-books-graduation-cap-ladders-education-day.jpg");
         background-repeat: no-repeat;
+        background-size:contain;
+        background-position-Y: 20%;
+        height: 350px;
+        width: 100%;
     }
     .marcoColumnas{
         display: flex;
         justify-content: space-around;
         align-items: center;
+        flex-direction: row;
         gap: 10px;
     }
+    .marcoColumnas img{
+        width: 100%;
+    }
     .columna{
+        text-align: center;
+        padding: 10px;
         flex: 1;
         background-color: #e9a238;
         border: 1px solid #f5580f;
+         
+       
+
     }
     .footer{
         width: 100%;
@@ -50,8 +63,27 @@
         background-color: #1bd161 ;
     }
     .colorVerde{ 
-        background-color: palevioletred;
+        background-color: #AADAE5;
     }
     .colorAzul{
-        background-color: palegreen;
+       background-color:#E2430C;
+    }
+    .formulario{
+        width: 50%;
+        
+    }
+    form{
+        width: 100%;
+        margin: auto;
+        padding: 15px;
+    }
+    input{
+        width: 50%;
+        padding: 5px;
+        border-radius: 5px;
+        margin: 10px;
+    } 
+    textarea{
+        width: 50%;
+        border-radius: 10px;
     }
